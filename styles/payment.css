@@ -1,12 +1,55 @@
+body{
+    height: 800px;
+    }
+.main{
+    margin: 0px;
+    background-color: #e0e0e0;
+}
 #logo{
     height: 60px;
   width: 60px;
+}
+.navbar{
+    background-color: rosybrown;
+} 
+.nav-link {
+    color: black;
+}
+.blu{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    background:rgb(132,136,139);
+    width: 50%;
+    height: auto;
+    margin-inline: auto;
+    
 }
 .hp{
     height: 500px;
     width: 500px;
 }
+.pay-desc{
+    margin-left: 2%;
+}
+.amount{
+    border: 2px solid rgba(0, 0, 0, 0.521);
+    padding-top: 1%;
+    padding-bottom:1% ;
+    padding-left:2% ;
+    padding-right: 2%;
+    border-radius: 5px;
+    margin-right:2%;
+    margin-top:2% ;
+    margin-bottom:2% ;
+}
+#pay-link{
+    margin-left: 0px;
+}
 .sp{
     height: 20px;
     width: 22px;
+}
+.footer{
+    background-color: rosybrown;
+    
 }
