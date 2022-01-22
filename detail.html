@@ -1,83 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"/>
-      <!--css link-->
-      <link rel="stylesheet" type="text/css" href="styles/detail.css"> 
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Detail</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-light bg-light">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--css link-->
+  <link rel="stylesheet" type="text/css" href="styles/detail.css">
+
+  <title>Detail</title>
+</head>
+
+<body>
+  <div class="main">
+    <nav class="navbar navbar-custom">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img id="logo" src="assests/images/logo.png" alt="logo">
         </a>
         <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="login.html" target="_blank">Login</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="login.html" target="_blank">Login</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <div class="detail">
-        <img  class="hp" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
+      <div class="d-img">
+        <img class="hp" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
+      </div>
+      <div class="dform">
         <form action="payment.html"">
-          <label for="Adults">Adults</label>
+            <label for=" Adults">Adults</label>
           <input type="number" id="Adults" name="username" min="1" required="adult number"><br>
           <label for="pwd">Name:</label>
           <input type="text" id="pwd" name="pwd" required="Name required"><br>
           <label for="date">From Date:</label>
-          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31" required=" from date required"><br>
+          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
+            required=" from date required"><br>
           <label for="subDate">To Date:</label>
-          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31" required=" to date required"><br>
+          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
+            required=" to date required"><br>
           <label for="sum">Total:</label>
           <input type="text"><br>
           <input type="submit" value="Book Now"><br>
-        </form><br>
+        </form>
+      </div>
+      <div class="desc">
         <h3>Radisson Blu Hotel</h3>
         <p>RATING</p>
         <P>5 Star</P>
         <p>AMENITIES</p>
         <ul>
-            <li>Room service</li>
-            <li>Restaurant</li>
-            <li>Business center</li>
-            <li>Fitness center</li>
-            <li>Pool</li>
+          <li>Room service</li>
+          <li>Restaurant</li>
+          <li>Business center</li>
+          <li>Fitness center</li>
+          <li>Pool</li>
         </ul>
-        <h5>DESCRIPTION</h5><br>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda beatae reiciendis veritatis laboriosam odit fugit sequi temporibus a iste excepturi fuga consectetur. Enim voluptate nesciunt praesentium, quidem quibusdam eius</P>
+        <h5>DESCRIPTION</h5>
+        <P style="padding-top: 7px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, assumenda beatae reiciendis veritatis laboriosam
+          odit fugit sequi temporibus a iste excepturi fuga consectetur. Enim voluptate nesciunt praesentium, quidem
+          quibusdam eius</P>
+      </div>
     </div>
-    <footer>
-        <a href="contact.html" target="_blank">Contact Us</a><br>
-        <a href="https://www.facebook.com/" target="_blank">
-         <img class="sp" src="assests/images/facebook.png">
-       </a>
-       <a href="https://www.instagram.com/" target="_blank">
-         <img class="sp"  src="assests/images/instagram.png">
-       </a>
-       <a href="https://twitter.com/" target="_blank">
-         <img class="sp" src="assests/images/twitter.png">
-       </a><br>
-       <p>2020 ROOM SEARCH PVT.LTD.</p>
-       </footer>
+    <div class="footer">
+      <a href="contact.html" target="_blank">Contact Us</a><br>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img class="sp" src="assests/images/facebook.png">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img class="sp" src="assests/images/instagram.png">
+      </a>
+      <a href="https://twitter.com/" target="_blank">
+        <img class="sp" src="assests/images/twitter.png">
+      </a><br>
+      <p>2020 ROOM SEARCH PVT.LTD.</p>
+    </div>
   
-   
+  </div>
+  
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

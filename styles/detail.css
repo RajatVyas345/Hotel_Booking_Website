@@ -1,6 +1,31 @@
+body{
+    height: 800px;
+    }
+.main{
+    background-color:  #e0e0e0;
+}
 #logo{
     height: 60px;
   width: 60px;
+}
+.navbar{
+    background-color: rosybrown;
+}
+.nav-link {
+    color: black;
+}
+.d-img{
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+.dform{
+    margin-top: 4px;
+    margin-left: 4%;
+}
+.desc{
+    margin-top: 2%;
+    margin-left: 4%;
 }
 .hp{
     height: 500px;
@@ -9,4 +34,7 @@
 .sp{
     height: 20px;
     width: 22px;
+}
+.footer{
+    background-color:rosybrown;
 }

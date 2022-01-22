@@ -6,6 +6,9 @@
 .navbar {
     background-color:  rosybrown;
 }
+.nav-link {
+    color: black;
+}
 .bg-img{
     height: 380px;
     width: 100%;
