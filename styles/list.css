@@ -1,9 +1,25 @@
+body{
+height: 800px;
+}
 .main{
-    height: 800px;
+   margin: 0px;
+    background-color: #e0e0e0;
 }
 #logo{
   height: 60px;
   width: 60px;
+}
+.navbar{
+    background-color: rosybrown;
+} 
+.desc{
+    background-color: rgb(132,136,139);
+    margin: 2%;
+    width: 40%;
+    height: 400px;
+}
+.map{
+    margin-top: 17%;
 }
 .hp{
     height: 250px;
@@ -13,4 +29,8 @@
     height: 20px;
     width: 22px;
 }
+
+.footer{
+    background-color: rosybrown;
     
+}
