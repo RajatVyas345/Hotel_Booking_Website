@@ -32,13 +32,17 @@ height: 800px;
     justify-content: space-around;
 }
 .desc{
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
     margin: 2%;
     width: 42%;
-    height: 400px;
+    height: 251px;
+    display: flex;
+}
+.hotel-name{
+    padding: 5%;
 }
 .map{
-margin: 25%;
+margin: 23%;
 }
 .hp{
     height: 250px;
