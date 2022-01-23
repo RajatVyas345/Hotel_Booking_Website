@@ -12,11 +12,12 @@
   <!--css link-->
   <link rel="stylesheet" type="text/css" href="styles/detail.css">
   <link rel="stylesheet" type="text/css" href="styles/common.css"> 
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
   <title>Detail</title>
 </head>
-
-<body>
+<body style="overflow-x:hidden;">
   <div class="main">
     <nav class="navbar navbar-custom">
       <div class="container">
@@ -31,29 +32,37 @@
       </div>
     </nav>
     <div class="detail">
-      <div class="d-img">
-        <img class="hp" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
+      <div class="content">
+        <div class="d-img">
+          <img class="hp" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
       </div>
-      <div class="dform">
-        <form action="payment.html"">
-            <label for=" Adults">Adults</label>
-          <input type="number" id="Adults" name="username" min="1" required="adult number"><br>
-          <label for="pwd">Name:</label>
-          <input type="text" id="pwd" name="pwd" required="Name required"><br>
-          <label for="date">From Date:</label>
-          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
-            required=" from date required"><br>
-          <label for="subDate">To Date:</label>
-          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
-            required=" to date required"><br>
-          <label for="sum">Total:</label>
-          <input type="text"><br>
-          <input type="submit" value="Book Now"><br>
-        </form>
+        <div class="dform">
+          <form action="payment.html"">
+            <label for=" Adults">Adults:</label>
+            <input type="number" id="Adults" name="username" min="1" required="adult number"><br><br>
+            <label for="pwd">Name:</label>
+            <input type="text" id="pwd" name="pwd" required="Name required"><br><br>
+            <label for="date">From Date:</label>
+            <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
+              required=" from date required"><br><br>
+            <label for="subDate">To Date:</label>
+            <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
+              required=" to date required"><br><br>
+            <label for="sum">Total:</label>
+            <input type="text"><br><br>
+            <div style="text-align: center; margin-left: 90px;">
+              <input type="submit" value="Book Now" style="width: 150px;"><br>
+            </div>
+            
+          </form>
+        </div>
       </div>
+        
+   </div>
+    
       <div class="desc">
         <h3>Radisson Blu Hotel</h3>
-        <p>RATING</p>
+        <p style="font-family: cursive;">RATING</p>
         <P>5 Star</P>
         <p>AMENITIES</p>
         <ul>
