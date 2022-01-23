@@ -3,12 +3,6 @@
     background-color: #e0e0e0;
     
 }
-.navbar {
-    background-color:  rosybrown;
-}
-.nav-link {
-    color: black;
-}
 .bg-img{
     height: 380px;
     width: 100%;
@@ -16,11 +10,14 @@
 }
 .gsearch{
     position: absolute;
-    top: 11%;
+    top: 25%;
+    left: 38%;
+    width: 25%;
 }
 #logo{
   height: 60px;
   width: 60px;
+  margin-left: -59px;
 }
 .city-img{
     height: 150px;
@@ -28,22 +25,26 @@
     border-radius:15px ;
 }
 #view{
-    margin-top: 5%;
+    margin-top: 3%;
+    padding-bottom: 12%;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 .cp{
     padding-top: 6%;
     display: flex;
     justify-content: space-evenly;
 }
-.item{
+.more{
     list-style-type: none;
     margin-left: -30px;
+    display: flex;
 }
 .sp{
     height: 20px;
     width: 22px;
 }
-.footer{
-    background-color:rosybrown;
-}
-    

@@ -1,0 +1,19 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+  }
+
+.navbar {
+    background-color:  rosybrown;
+    overflow: hidden;
+
+}
+.nav-link {
+    color: black;
+}
+.footer{
+    background-color:rosybrown;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    

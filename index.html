@@ -13,12 +13,14 @@
       crossorigin="anonymous"/>
       <!--css link-->
       <link rel="stylesheet" type="text/css" href="styles/index.css"> 
-
+      <link rel="stylesheet" type="text/css" href="styles/common.css"> 
+      <!--Goolge font-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" >
     <title>index</title>
   </head>
   <body>
     <div class="main">
-      <nav class="navbar navbar-custom">
+      <nav class="navbar navbar-custom fixed-top">
         <div class="container">
           <a class="navbar-brand" href="index.html">
             <img  id="logo" src="assests/images/logo.png" alt="logo">
@@ -34,7 +36,7 @@
      <img class="bg-img" src="https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg">
     <form class="gsearch">
       <label for="gsearch"></label>
-      <input type="search" id="gsearch" name="gsearch" placeholder="City">
+      <input type="search" id="gsearch" name="gsearch" placeholder="City" style="width: 100%;border-radius: 5px; border: 1px solid transparent; padding-left: 10px;background-color: #f1f1f1;">
     </form>
   </div>
          <div class="cp">
@@ -46,26 +48,34 @@
             <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg">
          </div>
          <div id="view">
-          <a href="list.html" target="_blank">View more >></a>
+          <a href="list.html" target="_blank" style="color: black; text-decoration: none;">View more >></a>
          </div>
        
  
    <div class="footer">
-    <ul class="more">
-      <li class="item">
-        <a href="contact.html" target="_blank">Contact Us</a><br>
-        <a href="https://www.facebook.com/" target="_blank">
-          <img class="sp" src="assests/images/facebook.png">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img class="sp" src="assests/images/instagram.png">
-        </a>
-        <a href="https://twitter.com/" target="_blank">
-          <img class="sp" src="assests/images/twitter.png">
-        </a>
-     </li>
-  </ul>
-    <p style="left: 100px; margin-top: -13px;">2020 ROOM SEARCH PVT.LTD.</p>
+
+     <div class="social">
+      <a href="contact.html" target="_blank" style="color: black; text-decoration: none;">Contact Us</a>
+      <ul class="more">
+        <li>
+         <a href="https://www.facebook.com/" target="_blank">
+            <img class="sp" src="assests/images/facebook.png">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="sp" src="assests/images/instagram.png">
+          </a>
+        </li>
+          <li>
+            <a href="https://twitter.com/" target="_blank">
+              <img class="sp" src="assests/images/twitter.png">
+            </a>
+          </li>
+    </ul>
+     </div>
+   
+    <p style="left: 100px; margin-top: -13px; text-align: center;">©2020 ROOM SEARCH PVT.LTD.</p>
   </div>
     
 
