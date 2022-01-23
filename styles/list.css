@@ -8,6 +8,7 @@ height: 800px;
 #logo{
   height: 60px;
   width: 60px;
+  margin-left: -90px;
 }
 .navbar{
     background-color: rosybrown;
@@ -15,14 +16,29 @@ height: 800px;
 .nav-link {
     color: black;
 }
+.more{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.view{
+    padding: 10px 20px;
+    color: black;
+}
+.hotel-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .desc{
     background-color: rgb(132,136,139);
     margin: 2%;
-    width: 40%;
+    width: 42%;
     height: 400px;
 }
 .map{
-    margin-top: 17%;
+margin: 25%;
 }
 .hp{
     height: 250px;
@@ -32,8 +48,13 @@ height: 800px;
     height: 20px;
     width: 22px;
 }
-
-.footer{
-    background-color: rosybrown;
-    
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.more{
+    list-style-type: none;
+    margin-left: -30px;
+    display: flex;
 }
