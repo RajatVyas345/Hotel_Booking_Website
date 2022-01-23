@@ -1,89 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"/>
-      <!--css link-->
-      <link rel="stylesheet" type="text/css" href="styles/index.css"> 
-      <link rel="stylesheet" type="text/css" href="styles/common.css"> 
-      <!--Goolge font-->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" >
-    <title>index</title>
-  </head>
-  <body>
-    <div class="main">
-      <nav class="navbar navbar-custom fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img  id="logo" src="assests/images/logo.png" alt="logo">
-          </a>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="login.html" >Login</a>
-            </li>
-          </ul>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!--css link-->
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <link rel="stylesheet" type="text/css" href="styles/common.css">
+  <!--Goolge font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+  <title>index</title>
+</head>
+
+<body>
+  <div class="main">
+    <nav class="navbar navbar-custom fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="assests/images/logo.png" alt="logo">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content-2">
+      <img class="bg-img" src="https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg">
+      <form class="gsearch">
+        <label for="gsearch"></label>
+        <input type="search" id="gsearch" name="gsearch" placeholder="City"
+          style="width: 100%;border-radius: 5px; border: 1px solid transparent; padding-left: 10px;background-color: #f1f1f1;">
+      </form>
+    </div>
+    <div class="cp">
+      <div class="city">
+        <a href="list.html">
+          <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+            alt="dehli">
+        </a>
+        <div class="overlay">
+          <div class="text">Dehli</div>
         </div>
-      </nav>
-   <div class="content-2">
-     <img class="bg-img" src="https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg">
-    <form class="gsearch">
-      <label for="gsearch"></label>
-      <input type="search" id="gsearch" name="gsearch" placeholder="City" style="width: 100%;border-radius: 5px; border: 1px solid transparent; padding-left: 10px;background-color: #f1f1f1;">
-    </form>
-  </div>
-         <div class="cp">
-            <a href="list.html">
-              <img  class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="dehli">
+      </div>
+      <div class="city">
+        <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg">
+        <div class="overlay">
+          <div class="text">Goa</div>
+        </div>
+      </div>
+      <div class="city">
+        <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
+        <div class="overlay">
+          <div class="text">Hyderabad</div>
+        </div>
+      </div>
+      <div class="city">
+        <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg">
+        <div class="overlay">
+          <div class="text">Chennai</div>
+        </div>
+      </div>
+    </div>
+    <div id="view">
+      <a href="list.html" target="_blank" style="color: black; text-decoration: none;">View more >></a>
+    </div>
+    <div class="footer">
+      <div class="social">
+        <a href="contact.html" target="_blank" style="color: black; text-decoration: none;">Contact Us</a>
+        <ul class="more">
+          <li>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img class="sp" src="assests/images/facebook.png">
             </a>
-            <img  class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"> 
-            <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg">
-            <img class="city-img" src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg">
-         </div>
-         <div id="view">
-          <a href="list.html" target="_blank" style="color: black; text-decoration: none;">View more >></a>
-         </div>
-       
- 
-   <div class="footer">
-
-     <div class="social">
-      <a href="contact.html" target="_blank" style="color: black; text-decoration: none;">Contact Us</a>
-      <ul class="more">
-        <li>
-         <a href="https://www.facebook.com/" target="_blank">
-            <img class="sp" src="assests/images/facebook.png">
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img class="sp" src="assests/images/instagram.png">
-          </a>
-        </li>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="sp" src="assests/images/instagram.png">
+            </a>
+          </li>
           <li>
             <a href="https://twitter.com/" target="_blank">
               <img class="sp" src="assests/images/twitter.png">
             </a>
           </li>
-    </ul>
-     </div>
-   
-    <p style="left: 100px; margin-bottom: 0px; text-align: center;">©2020 ROOM SEARCH PVT.LTD.</p>
-  </div>
-    
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        </ul>
+      </div>
+      <p style="left: 100px; margin-bottom: 0px; text-align: center;">©2020 ROOM SEARCH PVT.LTD.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-      
-    ></script>
-  </body>
+      crossorigin="anonymous"></script>
+</body>
+
 </html>
